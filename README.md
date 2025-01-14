@@ -31,7 +31,7 @@ O projeto é composto pelos seguintes arquivos principais:
 ## Tecnologias utilizadas
 
 - **HTML5** para a estrutura do conteúdo.
-- **CSS3** para estilização e responsividade.
+- **CSS** para estilização e responsividade.
 
 ## Melhorias futuras
 
@@ -47,12 +47,5 @@ Contribuições são bem-vindas! Fique à vontade para abrir um PR ou relatar pr
 ## Como visualizar o projeto
 
 1. Clone este repositório em sua máquina local:
-   ```bash
-   git clone https://github.com/seu-usuario/batman-promotional-page.git
-   ```
-2. Navegue até a pasta do projeto:
-   ```bash
-   cd batman-promotional-page
-   ```
-3. Abra o arquivo `index.html` em qualquer navegador de sua escolha.
+  https://maximilliondev1.github.io/Batman/
 

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Kdam Thmor Pro", serif;
+    background-color: black;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+}
+
+li:hover {
+    color: #D21617
+}
+
+
+#batman-logo {
+    width: 117px;
+    height: auto;
+
+}
+
+
+.critic-card-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.cards-critics {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    row-gap: 20px;
+    column-gap: 50px;
+    background-image: url("https://wallpapercave.com/wp/wp12812916.jpg");
+    background-size:cover;
+    background-position: center;
+}
+
+.card {
+    margin-top: 87px;
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 7px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    padding: 0px 0px 20px 10px;
+    color: #fff;
+    font-size: 18px;
+    align-items: center;
+    filter: alpha(opacity=90);
+        opacity: 0.9;
+        -moz-opacity: 0.7;
+        -webkit-opacity: 0.7;
+    
+}
+
+.card:hover {
+    transform: scale(1.01);
+}
